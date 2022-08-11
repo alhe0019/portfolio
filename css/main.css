@@ -58,6 +58,7 @@ main {
   margin-top: 1rem;
   padding: 2rem;
   font-size: 1.8rem;
+  color:aliceblue;
   display: flex;
 }
 
@@ -175,10 +176,12 @@ button {
   .main {
     width: 60%;
     margin:auto;
+    display: flex;
   }
 
 .btnContainer {
   width: 30%;
+  height: 20rem;
   align-items: center;
 }
 
