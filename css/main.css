@@ -5,13 +5,14 @@ body {
 .header {
   display: flex;
   flex-wrap: wrap;
-  background-color: #3d81bf;
+  background-color: #B3780D;
   align-items: center;
   justify-content: center;
 }
 
 .navigation {
   text-align: center;
+  width: 70%;
 }
 
 /* I used flex box role to make the navigation menu responsive */
@@ -23,15 +24,19 @@ body {
 }
 
 .navigation li {
-  margin: 0 1rem;
+  margin: 1rem;
   list-style: none;
-  background-color: lightgray;
   padding: 1rem;
   border-radius: 0.7rem;
 }
 
 a {
   text-decoration: none;
+}
+
+main {
+  max-width: 90%;
+  margin: 1rem 5%;
 }
 
 .banner {
@@ -43,28 +48,6 @@ a {
 
 .banner img {
   width: 100%;
-}
-
-/* Styling search box */
-.search {
-  display: block;
-  width: 70%;
-  margin: 2rem auto;
-}
-
-/* This organizes the container cards */
-.cards {
-  display: grid;
-  gap: 1rem;
-  margin: 1rem auto;
-  justify-content: center;
-  padding: 2rem;
-  width: 75%;
-}
-
-/* This a single car card*/
-.card {
-  text-align: center;
 }
 
 .details {
@@ -99,7 +82,7 @@ a {
 }
 
 .footer {
-  background-color: #3d81bf;
+  background-color: #5E056B;
   margin-top: 1rem;
   padding: 2rem;
   font-size: 1.8rem;
