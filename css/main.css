@@ -39,7 +39,7 @@ a {
 }
 
 main {
-  display: flex;
+  /* display: flex; */
   max-width: 90%;
   margin: 1rem 5%;
 }
@@ -172,14 +172,13 @@ button {
     width: 85%;
   }
 
-  main {
+  .main {
     width: 60%;
     margin:auto;
   }
 
 .btnContainer {
   width: 30%;
-  height: 20rem;
   align-items: center;
 }
 
