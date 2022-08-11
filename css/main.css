@@ -45,44 +45,11 @@ main {
 
 .banner {
   position: relative;
-  color: red;
   text-align: center;
-  animation: 2s ease-out 0s 1 fadeIn;
 }
 
 .banner img {
   width: 100%;
-}
-
-.details {
-  width: 10rem;
-  background-color: lightgray;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-  margin: 3rem auto;
-  align-self: center;
-}
-
-.cusReview {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0 1rem;
-}
-
-.review {
-  background-color: lightgrey;
-  width: 40vw;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-  text-align: center;
-  display: inline-block;
-}
-
-.para {
-  display: inline-block;
-  margin-left: 1rem;
-  font-size: 1rem;
 }
 
 .footer {
@@ -107,15 +74,6 @@ main {
   background-color: white;
   border-radius: 0.5rem;
   margin: 0 1rem;
-}
-
-/* This container styles the vehicles page cars */
-.container {
-  margin: 1rem;
-}
-
-.vehcard img {
-  margin-right: 1rem;
 }
 
 .container {
@@ -160,14 +118,38 @@ main {
   padding: 30px;
 }
 
-/*This section fades in the banner's image*/
-@keyframes fadeIn {
-  0% {
-    opacity: 0.1;
-  }
-  100% {
-    opacity: 1;
-  }
+.btnContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 75%;
+  height: 10rem;
+  margin: auto;
+}
+
+button {
+  padding: 1rem;
+  background-color: #3AE9B6;
+  border-radius: 8px;
+  margin: .5 rem;
+}
+
+/* styling for protfolio page */
+.title {
+  font-size: 1.8rem;
+  text-align: center;
+  background-color: #3AE9B6;
+  padding: 2rem;
+  border-radius: 25px;
+  width: 60%;
+  margin: 1rem auto;
+  margin-bottom: 3rem;
+}
+
+.content {
+  width: 70%;
+  margin:auto;
 }
 
 /* This section for the media query to make the site responsive for screens larger than mobile phones */
@@ -191,25 +173,6 @@ main {
 
   .banner img {
     width: 80%;
-  }
-
-  .cards {
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-
-  .cusReview {
-    justify-content: flex-start;
-  }
-
-  .para {
-    display: inline-block;
-    margin-left: 1rem;
-    font-size: 1.5rem;
-  }
-
-  .review {
-    margin-left: 8rem;
-    width: 20vw;
   }
 
   /* Contact page main content container*/
