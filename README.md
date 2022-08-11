@@ -1,7 +1,7 @@
 # portfolio
 I started coding with the html structure of the pages Before styling them.
 I staged, committed, and synched the code to GitHub repo.
-I started syling page by page always checking the styling with live server on the browser
+I started syling page by page and always checking the styling with live server on the browser
 
 The challenges that i faced were making the layout responsive for moble and desktop screens
 I solved this challenges by using the media quries for the dektop layout

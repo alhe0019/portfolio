@@ -39,6 +39,7 @@ a {
 }
 
 main {
+  display: flex;
   max-width: 90%;
   margin: 1rem 5%;
 }
@@ -169,6 +170,22 @@ button {
 
   .navigation {
     width: 85%;
+  }
+
+  main {
+    width: 60%;
+    margin:auto;
+  }
+
+.btnContainer {
+  width: 30%;
+  height: 20rem;
+  align-items: center;
+}
+
+  .button {
+    width: 30%;
+    margin: 2rem;
   }
 
   .banner img {
