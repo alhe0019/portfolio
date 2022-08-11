@@ -34,6 +34,10 @@ a {
   text-decoration: none;
 }
 
+.logo {
+  width: 100px;
+}
+
 main {
   max-width: 90%;
   margin: 1rem 5%;
@@ -110,15 +114,6 @@ main {
   margin: 1rem;
 }
 
-/* I used flexbox to arrange the card items in horizontal direction  */
-.vehcard {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  margin: 1.5rem;
-  font-size: 1.25rem;
-}
-
 .vehcard img {
   margin-right: 1rem;
 }
@@ -188,6 +183,10 @@ main {
 
   .navigation li {
     margin: 0 6rem;
+  }
+
+  .navigation {
+    width: 85%;
   }
 
   .banner img {
